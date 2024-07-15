@@ -1,0 +1,66 @@
+{
+    "healthTips": [
+        {
+            "title": "Stay Hydrated",
+            "description": "Drink plenty of water throughout the day to stay hydrated and maintain good health.",
+            
+        },
+        {
+            "title": "Get Enough Sleep",
+            "description": "Make sure to get 7-8 hours of quality sleep each night to support your overall well-being.",
+            
+        },
+        {
+            "title": "Eat a Balanced Diet",
+            "description": "Include a variety of fruits, vegetables, whole grains, and lean proteins in your daily meals for optimal nutrition.",
+            
+        },
+        {
+            "title": "Exercise Regularly",
+            "description": "Engage in physical activity for at least 30 minutes a day to improve your fitness and overall health.",
+            
+        },
+        {
+            "title": "Practice Stress Management",
+            "description": "Find healthy ways to manage stress, such as meditation, deep breathing exercises, or engaging in hobbies.",
+            
+        },
+        {
+            "title": "Maintain Good Posture",
+            "description": "Pay attention to your posture while sitting and standing to prevent back and neck pain.",
+            
+        }
+    ],
+    "newProducts": [
+        {
+            "name": "Ibuprofen",
+            "description": "Relieves pain, reduces inflammation, and lowers fever.",
+            "medicationType": "Pain Relief",
+            "image": "placeholder_image_url"
+        },
+        {
+            "name": "Amoxicillin",
+            "description": "An antibiotic used to treat various bacterial infections.",
+            "medicationType": "Antibiotics",
+            "image": "placeholder_image_url"
+        },
+        {
+            "name": "Vitamin C",
+            "description": "Boosts immune system and helps prevent common colds.",
+            "medicationType": "Vitamins",
+            "image": "placeholder_image_url"
+        },
+        {
+            "name": "Aspirin",
+            "description": "Used to relieve pain, reduce inflammation, and prevent blood clots.",
+            "medicationType": "Pain Relief",
+            "image": "placeholder_image_url"
+        },
+        {
+            "name": "Lisinopril",
+            "description": "A medication used to treat high blood pressure and heart failure.",
+            "medicationType": "Cardiovascular",
+            "image": "placeholder_image_url"
+        }
+    ]
+}
