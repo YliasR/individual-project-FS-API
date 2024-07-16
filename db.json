@@ -49,7 +49,7 @@
             "name": "Ibuprofen",
             "description": "Relieves pain, reduces inflammation, and lowers fever.",
             "medicationType": "Pain Relief",
-            "image": "placeholder_image_url"
+            "image": "https://imgur.com/M5utthR"
         },
         {
             
@@ -57,7 +57,7 @@
             "name": "Amoxicillin",
             "description": "An antibiotic used to treat various bacterial infections.",
             "medicationType": "Antibiotics",
-            "image": "placeholder_image_url"
+            "image": "https://imgur.com/mksWkOy"
         },
         {
             
@@ -65,7 +65,7 @@
             "name": "Vitamin C",
             "description": "Boosts immune system and helps prevent common colds.",
             "medicationType": "Vitamins",
-            "image": "placeholder_image_url"
+            "image": "https://imgur.com/XsNamLX"
         },
         {
             
@@ -73,7 +73,7 @@
             "name": "Aspirin",
             "description": "Used to relieve pain, reduce inflammation, and prevent blood clots.",
             "medicationType": "Pain Relief",
-            "image": "placeholder_image_url"
+            "image": "https://imgur.com/jrT2SBK"
         },
         {
             
@@ -81,7 +81,14 @@
             "name": "Lisinopril",
             "description": "A medication used to treat high blood pressure and heart failure.",
             "medicationType": "Cardiovascular",
-            "image": "placeholder_image_url"
+            "image": "https://imgur.com/Wn4l0Sz"
+        },
+        {
+            "id": 6,
+            "name": "Vicodin",
+            "description": "A medication used to relieve pain.",
+            "medicationType": "Pain relief",
+            "image": "https://imgur.com/2js6fKX"
         }
     ]
 }
