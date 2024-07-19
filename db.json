@@ -40,6 +40,27 @@
             "title": "Maintain Good Posture",
             "description": "Pay attention to your posture while sitting and standing to prevent back and neck pain."
             
+        },
+        {
+            
+            "id": 7,
+            "title": "Limit Sugar Intake",
+            "description": "Reduce your consumption of sugary foods and drinks to maintain a healthy weight and prevent dental issues."
+            
+        },
+        {
+            
+            "id": 8,
+            "title": "Practice Good Oral Hygiene",
+            "description": "Brush your teeth twice a day, floss regularly, and visit your dentist for check-ups to keep your teeth and gums healthy."
+            
+        },
+        {
+            
+            "id": 9,
+            "title": "Take Breaks from Screen Time",
+            "description": "Give your eyes and mind a break by taking regular breaks from prolonged screen time, especially when working or studying."
+            
         }
     ],
     "newProducts": [
