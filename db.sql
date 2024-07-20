@@ -40,7 +40,7 @@ INSERT INTO healthTips (id, title, description) VALUES
 INSERT INTO newProducts (id, name, description, medicationType, image) VALUES
 (1, 'Ibuprofen', 'Relieves pain, reduces inflammation, and lowers fever.', 'Pain Relief', 'https://i.imgur.com/M5utthR.jpg'),
 (2, 'Amoxicillin', 'An antibiotic used to treat various bacterial infections.', 'Antibiotics', 'https://i.imgur.com/mksWkOy.jpg'),
-(3, 'Vitamin C', 'Boosts immune system and helps prevent common colds.', 'Vitamins', 'https://i.imgur.com/XsNamLX.jpg'),
+(3, 'Vitamin C', 'Boosts immune system and helps prevent common colds.', 'Vitamins', 'https://i.imgur.com/hJMlmgI.jpeg'),
 (4, 'Aspirin', 'Used to relieve pain, reduce inflammation, and prevent blood clots.', 'Pain Relief', 'https://i.imgur.com/jrT2SBK.jpg'),
 (5, 'Lisinopril', 'A medication used to treat high blood pressure and heart failure.', 'Cardiovascular', 'https://i.imgur.com/Wn4l0Sz.png'),
 (6, 'Vicodin', 'A medication used to relieve pain.', 'Pain relief', 'https://i.imgur.com/2js6fKX.png');
