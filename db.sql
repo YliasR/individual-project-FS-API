@@ -1,10 +1,12 @@
 DROP SCHEMA IF EXISTS healthyLifeDB;
 CREATE SCHEMA healthyLifeDB;
 
+USE healthyLifeDB;
 
 DROP TABLE IF EXISTS healthTips;
 DROP TABLE IF EXISTS newProducts;
 DROP TABLE IF EXISTS customer;
+
 CREATE TABLE healthTips (
     id INT PRIMARY KEY NOT NULL,
     title VARCHAR(255) NOT NULL,
@@ -20,7 +22,7 @@ CREATE TABLE newProducts (
 );
 
 CREATE TABLE customer (
-    customerId INT PRIMARY KEY NOT NULL,
+    customerId INT AUTO_INCREMENT PRIMARY KEY,  -- Added AUTO_INCREMENT here
     name VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL,
     message TEXT NOT NULL
@@ -45,9 +47,10 @@ INSERT INTO newProducts (id, name, description, medicationType, image) VALUES
 (5, 'Lisinopril', 'A medication used to treat high blood pressure and heart failure.', 'Cardiovascular', 'https://i.imgur.com/Wn4l0Sz.png'),
 (6, 'Vicodin', 'A medication used to relieve pain.', 'Pain relief', 'https://i.imgur.com/2js6fKX.png');
 
-INSERT INTO customer (customerId, name, email, message) VALUES
-(1, 'John Doe', 'johndoe@example.com', 'Looking forward to the new products!'),
-(2, 'Jane Smith', 'janesmith@example.com', 'Thank you for the health tips.'),
-(3, 'Alice Johnson', 'alicej@example.com', 'Can I get more information on the new medications?'),
-(4, 'Bob Brown', 'bobb@example.com', 'I appreciate the tips on staying healthy.'),
-(5, 'Carol White', 'carolw@example.com', 'Will you have more products available soon?');
+INSERT INTO customer (name, email, message) VALUES
+('John Doe', 'johndoe@example.com', 'Looking forward to the new products!'),
+('Jane Smith', 'janesmith@example.com', 'Thank you for the health tips.'),
+('Alice Johnson', 'alicej@example.com', 'Can I get more information on the new medications?'),
+('Bob Brown', 'bobb@example.com', 'I appreciate the tips on staying healthy.'),
+('Carol White', 'carolw@example.com', 'Will you have more products available soon?');
+('Carol White', 'carolw@example.com', 'Will you have more products available soon?');
